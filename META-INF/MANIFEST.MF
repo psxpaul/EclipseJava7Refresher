@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Java7RefreshProvider
+Bundle-SymbolicName: Java7RefreshProvider;singleton:=true
+Bundle-Version: 0.0.1
+Bundle-Activator: com.pr.jdkseven.Java7RefreshProviderPlugin
+Bundle-Vendor: PRoberts Enterprises
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-ActivationPolicy: lazy
+Eclipse-LazyStart: true
+Export-Package: com.pr.jdkseven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

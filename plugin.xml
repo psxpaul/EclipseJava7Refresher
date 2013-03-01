@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin>
+   <extension point="org.eclipse.core.resources.refreshProviders">
+      <refreshProvider class="com.pr.jdkseven.Java7RefreshProvider" name="Inotify Refresh Provider"></refreshProvider>
+   </extension>
+</plugin>
